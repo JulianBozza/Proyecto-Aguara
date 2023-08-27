@@ -12,7 +12,7 @@
 <body>
     <header>
         <img class="logo" src="./Resources/zorro2 borde.png" alt="Logo Aguara">
-        <nav class="navegacion">
+        <nav class="nav">
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./Sections/Mates.html">Mates</a></li>
@@ -23,12 +23,29 @@
         </nav>
     </header>
     <main>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum molestias repellendus eos praesentium.
-            Dolorem, quod. Laboriosam perspiciatis assumenda, quo minima voluptatibus placeat dolores itaque accusamus
-            nihil explicabo quibusdam dolorem exercitationem aspernatur, iste cum debitis obcaecati vitae sunt maiores
-            fugit doloribus! Nobis molestiae iste adipisci tempore sequi et, quod libero quaerat.
-        </p>
+        
+        <div id="carousel-index" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Resources/Mate fondo blanco.jpg"  class= "d-block w-100" alt="Mates en mano">
+              </div>
+              <div class="carousel-item">
+                <img src="./Resources/Mate fondo negro.jpg" class="d-block w-100 " alt="Mates en tronco">
+              </div>
+              <div class="carousel-item">
+                <img src="./Resources/Mate cebado.jpg" class="d-block w-100" alt="Mates">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
         <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum molestias repellendus eos praesentium.
             Dolorem, quod. Laboriosam perspiciatis assumenda, quo minima voluptatibus placeat dolores itaque accusamus
@@ -66,6 +83,7 @@
             <img class="instagram" src="./Resources/insta.png" alt="Instagram">
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 
 </html>
