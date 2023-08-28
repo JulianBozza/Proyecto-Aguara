@@ -4,15 +4,21 @@
 }
 
 body {
-    background-color: grey;
+    background-color: burlywood;
     position: relative;
     min-height: 100vh;
 }
 
 main {
-    background-color: #bf7712;
+    background-color: burlywood;
     display: flex;
     flex-direction: column;
+    margin: 30px;
+}
+
+main section {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
@@ -23,14 +29,22 @@ footer {
     width: 100%;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: burlywood;
+}
+
 .logo {
-    height: 100px;
+    height: 200px;
     margin: auto;
     display: block;
-
 }
 
 .nav {
+    background-color: #c1621b;
+    margin: 10px;
     text-transform: uppercase;
     display: block;
 }
@@ -45,7 +59,7 @@ footer {
 .nav ul li {
     background-color: #c1621b;
     display: inline;
-    border: black 0.5px solid;
+
 }
 
 .nav ul li a {
@@ -73,4 +87,12 @@ footer {
     margin-top: 20px;
     margin-left: 50%;
     height: 20px;
+}
+
+#carouselExample {
+    margin: 40px;
+}
+
+#carouselExample img {
+    height: 600px;
 }
