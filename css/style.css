@@ -37,16 +37,22 @@ body {
     min-height: 100vh;
 }
 
-main {
+.main-index {
     background-color: burlywood;
     display: flex;
     flex-direction: column;
     margin: 30px;
 }
 
-main section {
+.main-index section {
     display: flex;
     justify-content: space-evenly;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.main-index section .card{
+    margin: 5px;
 }
 
 
@@ -106,7 +112,7 @@ main section {
 }
 
 .nav2 h4 {
-font-family: "barlow-bold";
+    font-family: "barlow-bold";
 }
 
 .redes h4 {
@@ -128,9 +134,59 @@ footer {
     height: 20px;
 }
 
+.instagram2 {
+    display: block;
+    margin-top: 20px;
+    height: 20px;
+}
+
+
 footer .redes {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: baseline;
+}
+
+.main-ventas {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.main-ventas .filtro {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-ventas .filtro div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.main-ventas section {
+    padding: 20px;
+    display: flex;
+   flex-wrap: wrap; 
+}
+
+.main-ventas section .card {
+    margin: 5px;
+}
+
+.main-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding: 20px;
+}
+
+.main-contacto section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main-contacto .message {
+    height: 80px;
 }
