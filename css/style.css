@@ -151,6 +151,7 @@ footer .redes {
 .main-ventas {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    padding: 30px;
 }
 
 .main-ventas .filtro {
