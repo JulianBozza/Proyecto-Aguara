@@ -1,0 +1,26 @@
+.main-ventas {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 30px;
+
+    .filtro {
+        display: flex;
+        flex-direction: column;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+        }
+    }
+
+    section {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+
+        .card {
+            margin: 5px;
+        }
+    }
+}

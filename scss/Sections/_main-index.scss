@@ -1,0 +1,27 @@
+.main-index {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+
+    section {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 30px;
+        flex-wrap: wrap;
+
+        .card {
+            margin: 5px;
+        }
+    }
+    #carouselExample {
+        margin: 40px;
+        img {
+            height: 600px;
+        }
+    }
+}
+
+
+
+

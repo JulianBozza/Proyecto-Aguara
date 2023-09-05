@@ -1,0 +1,44 @@
+footer {
+    padding: 20px;
+    background-color: #7a270b;
+    display: flex;
+    position: absolute;
+    width: 100%;
+
+    .nav2 {
+        margin-left: 20px;
+        text-transform: uppercase;
+
+        ul {
+            list-style-type: none;
+
+            li a {
+                text-decoration: none;
+                color: white;
+                font-family: "barlow";
+            }
+        }
+
+        h4 {
+            font-family: "barlow-bold";
+        }
+    }
+
+    .redes {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: baseline;
+
+        h4 {
+            font-family: "barlow-bold";
+        }
+
+        .instagram {
+            display: block;
+            margin-top: 20px;
+            margin-left: 50%;
+            height: 20px;
+        }
+    }
+}

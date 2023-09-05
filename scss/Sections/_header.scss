@@ -1,0 +1,26 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: burlywood;
+
+    .logo {
+        height: 200px;
+        margin: auto;
+        display: block;
+    }
+
+    .navbar {
+        background-image: linear-gradient(to bottom right, #7a270b, #d3986c);
+        justify-content: space-evenly;
+
+        a {
+            font-family: "montserrat";
+
+            &:hover {
+                font-style: italic;
+                font-weight: bold;
+            }
+        }
+    }
+}

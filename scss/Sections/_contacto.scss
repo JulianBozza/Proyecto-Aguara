@@ -1,0 +1,22 @@
+.main-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding: 20px;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+        .instagram2 {
+            display: block;
+            margin-top: 20px;
+            height: 20px;
+        }
+    }
+
+    .message {
+        height: 80px;
+    }
+}

@@ -1,175 +1,148 @@
 @font-face {
-    font-family: "montserrat";
-    src: url(../Resources/fonts/Montserrat-VariableFont_wght.ttf);
+  font-family: "montserrat";
+  src: url(../Resources/fonts/Montserrat-VariableFont_wght.ttf);
 }
-
 @font-face {
-    font-family: "barlow";
-    src: url(../Resources/fonts/BarlowCondensed-Medium.ttf);
+  font-family: "barlow";
+  src: url(../Resources/fonts/BarlowCondensed-Medium.ttf);
 }
-
 @font-face {
-    font-family: "barlow-bold";
-    src: url(../Resources/fonts/BarlowCondensed-Bold.ttf);
+  font-family: "barlow-bold";
+  src: url(../Resources/fonts/BarlowCondensed-Bold.ttf);
 }
-
 * {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-color: burlywood;
-}
-
-.logo {
-    height: 200px;
-    margin: auto;
-    display: block;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: burlywood;
-    position: relative;
-    min-height: 100vh;
+  background-color: burlywood;
+  position: relative;
+  min-height: 100vh;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: burlywood;
+}
+header .logo {
+  height: 200px;
+  margin: auto;
+  display: block;
+}
+header .navbar {
+  background-image: linear-gradient(to bottom right, #7a270b, #d3986c);
+  justify-content: space-evenly;
+}
+header .navbar a {
+  font-family: "montserrat";
+}
+header .navbar a:hover {
+  font-style: italic;
+  font-weight: bold;
 }
 
 .main-index {
-    background-color: burlywood;
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
 }
-
 .main-index section {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 30px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+  flex-wrap: wrap;
 }
-
-.main-index section .card{
-    margin: 5px;
+.main-index section .card {
+  margin: 5px;
 }
-
-
-#carouselExample {
-    margin: 40px;
+.main-index #carouselExample {
+  margin: 40px;
 }
-
-#carouselExample img {
-    height: 600px;
-}
-
-.nav2 {
-    margin-left: 20px;
-    text-transform: uppercase;
-}
-
-.nav2 ul {
-    list-style-type: none;
-}
-
-.nav2 ul li a {
-    text-decoration: none;
-    color: white;
-    font-family: "barlow";
-}
-
-.nav2 h4 {
-    font-family: "barlow-bold";
-}
-
-.redes h4 {
-    font-family: "barlow-bold";
-}
-
-footer {
-    padding: 20px;
-    background-color: #7a270b;
-    display: flex;
-    position: absolute;
-    width: 100%;
-}
-
-.instagram {
-    display: block;
-    margin-top: 20px;
-    margin-left: 50%;
-    height: 20px;
-}
-
-.instagram2 {
-    display: block;
-    margin-top: 20px;
-    height: 20px;
-}
-
-
-footer .redes {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: baseline;
-}
-
-.main-ventas {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    padding: 30px;
-}
-
-.main-ventas .filtro {
-    display: flex;
-    flex-direction: column;
-}
-
-.main-ventas .filtro div {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-}
-
-.main-ventas section {
-    padding: 20px;
-    display: flex;
-   flex-wrap: wrap; 
-}
-
-.main-ventas section .card {
-    margin: 5px;
+.main-index #carouselExample img {
+  height: 600px;
 }
 
 .main-contacto {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  padding: 20px;
 }
-
 .main-contacto section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
-
+.main-contacto section .instagram2 {
+  display: block;
+  margin-top: 20px;
+  height: 20px;
+}
 .main-contacto .message {
-    height: 80px;
+  height: 80px;
 }
 
-.navbar {
-    background-image: linear-gradient(to bottom right, #7a270b, #d3986c);
-    justify-content: space-evenly;
+.main-ventas {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 30px;
+}
+.main-ventas .filtro {
+  display: flex;
+  flex-direction: column;
+}
+.main-ventas .filtro div {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.main-ventas section {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-ventas section .card {
+  margin: 5px;
 }
 
-.navbar a {
-    font-family: "montserrat";
+footer {
+  padding: 20px;
+  background-color: #7a270b;
+  display: flex;
+  position: absolute;
+  width: 100%;
 }
-
-.navbar a:hover {
-    font-style: italic;
-    font-weight: bold;
+footer .nav2 {
+  margin-left: 20px;
+  text-transform: uppercase;
 }
+footer .nav2 ul {
+  list-style-type: none;
+}
+footer .nav2 ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "barlow";
+}
+footer .nav2 h4 {
+  font-family: "barlow-bold";
+}
+footer .redes {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: baseline;
+}
+footer .redes h4 {
+  font-family: "barlow-bold";
+}
+footer .redes .instagram {
+  display: block;
+  margin-top: 20px;
+  margin-left: 50%;
+  height: 20px;
+}/*# sourceMappingURL=style.css.map */
