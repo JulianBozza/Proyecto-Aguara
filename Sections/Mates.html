@@ -10,7 +10,7 @@
     <title>Mates</title>
 </head>
 
-<body>
+<body class="body">
     <header>
         <img class="logo" src="../Resources/img/zorro2 borde.png" alt="Logo Aguara">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -20,8 +20,8 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse w-100 justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav espaciado">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
                         </li>
@@ -42,6 +42,27 @@
         </nav>
     </header>
     <main class="main-ventas">
+        <section class="filtro-responsive">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  FILTROS
+                </button>
+                <ul class="dropdown-menu">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         MATES
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                  <li><button class="dropdown-item" type="button">COLOR</button></li>
+                  <li><button class="dropdown-item" type="button">VIROLA</button></li>
+                </ul>
+              </div>
+        </section>
         <section class="filtro">
             <div>
                 <h4>MATES</h4>

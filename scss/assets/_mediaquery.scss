@@ -1,0 +1,20 @@
+@media (max-width: 991px) {
+
+    .main-ventas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1/8fr 1fr;
+        padding: 0;
+        flex-direction: column;
+
+        .filtro {
+            display: none;
+        }
+
+        .filtro-responsive {
+            display: block;
+            height: 80px;
+        }
+    }
+
+}

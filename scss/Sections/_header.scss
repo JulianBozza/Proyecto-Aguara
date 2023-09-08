@@ -14,13 +14,16 @@ header {
         background-image: linear-gradient(to bottom right, #7a270b, #d3986c);
         justify-content: space-evenly;
 
-        a {
-            font-family: "montserrat";
-
-            &:hover {
-                font-style: italic;
-                font-weight: bold;
+        .espaciado {
+            gap: 140px;
+            a {
+                font-family: "montserrat";
+    
+                &:hover {
+                    font-style: italic;
+                    font-weight: bold;
+                }
             }
         }
-    }
+        }
 }

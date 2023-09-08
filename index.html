@@ -9,12 +9,12 @@
     <title>Aguara</title>
 </head>
 
-<body>
+<body class="body">
     <header>
-      <form action="#" method="get">
-        <input type="search" placeholder="Búsqueda" name="busqueda">
-        <input type="submit">
-    </form>
+      <form class="d-flex" role="search">
+        <input class="d-flex" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
         <img class="logo" src="./Resources/img/zorro2 borde.png" alt="Logo Aguara">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid flex-column align-items-center flex-nowrap">
@@ -23,8 +23,8 @@
                   aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <div class="collapse navbar-collapse w-100 justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav espaciado">
                       <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
                       </li>
