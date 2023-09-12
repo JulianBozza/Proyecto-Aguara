@@ -4,14 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d8704d857d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
     <title>Mates</title>
 </head>
 
 <body class="body">
     <header>
+        <form class="d-flex" role="search">
+            <input class="d-flex rounded ms-2" type="search" placeholder="Búsqueda" aria-label="Search">
+            <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass lupa"
+                    style="color: #000000;"></i></button>
+        </form>
         <img class="logo" src="../Resources/img/zorro2 borde.png" alt="Logo Aguara">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid flex-column align-items-center flex-nowrap">
@@ -58,18 +62,20 @@
                         </ul>
                     </li>
                     <li><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
-                        href="#">COLOR</a>
-                    <ul class="d-flex flex-column">
-                        <label for="cbox"><input type="checkbox" value="first_checkbox">NEGRO</label>
-                        <label for="cbox"><input type="checkbox" value="first_checkbox">SUELA</label>
-                        <label for="cbox"><input type="checkbox" value="first_checkbox">BORDÓ</label>
-                    </ul></li>
+                            href="#">COLOR</a>
+                        <ul class="d-flex flex-column">
+                            <label for="cbox"><input type="checkbox" value="first_checkbox">NEGRO</label>
+                            <label for="cbox"><input type="checkbox" value="first_checkbox">SUELA</label>
+                            <label for="cbox"><input type="checkbox" value="first_checkbox">BORDÓ</label>
+                        </ul>
+                    </li>
                     <li><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
-                        href="#">VIROLA</a>
-                    <ul class="d-flex flex-column">
-                        <label for="cbox"><input type="checkbox" value="first_checkbox">ACERO</label>
-                        <label for="cbox"><input type="checkbox" value="first_checkbox">ALPACA</label>
-                    </ul></li>
+                            href="#">VIROLA</a>
+                        <ul class="d-flex flex-column">
+                            <label for="cbox"><input type="checkbox" value="first_checkbox">ACERO</label>
+                            <label for="cbox"><input type="checkbox" value="first_checkbox">ALPACA</label>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </section>
