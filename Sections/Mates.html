@@ -44,24 +44,34 @@
     <main class="main-ventas">
         <section class="filtro-responsive">
             <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  FILTROS
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    FILTROS
                 </button>
                 <ul class="dropdown-menu">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                         MATES
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                            href="#">MATES</a>
+                        <ul class="d-flex flex-column">
+                            <label for="cbox"><input type="checkbox" value="first_checkbox">IMPERIAL</label>
+                            <label for="cbox"><input type="checkbox" value="first_checkbox">CAMIONERO</label>
+                            <label for="cbox"><input type="checkbox" value="first_checkbox">TORPEDO</label>
                         </ul>
-                      </div>
-                  <li><button class="dropdown-item" type="button">COLOR</button></li>
-                  <li><button class="dropdown-item" type="button">VIROLA</button></li>
+                    </li>
+                    <li><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                        href="#">COLOR</a>
+                    <ul class="d-flex flex-column">
+                        <label for="cbox"><input type="checkbox" value="first_checkbox">NEGRO</label>
+                        <label for="cbox"><input type="checkbox" value="first_checkbox">SUELA</label>
+                        <label for="cbox"><input type="checkbox" value="first_checkbox">BORDÓ</label>
+                    </ul></li>
+                    <li><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                        href="#">VIROLA</a>
+                    <ul class="d-flex flex-column">
+                        <label for="cbox"><input type="checkbox" value="first_checkbox">ACERO</label>
+                        <label for="cbox"><input type="checkbox" value="first_checkbox">ALPACA</label>
+                    </ul></li>
                 </ul>
-              </div>
+            </div>
         </section>
         <section class="filtro">
             <div>

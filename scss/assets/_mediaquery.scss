@@ -1,5 +1,13 @@
 @media (max-width: 991px) {
 
+    header {
+        .navbar {
+            .espaciado {
+                gap: 10px;
+            }
+        }
+    }
+
     .main-ventas {
         display: grid;
         grid-template-columns: 1fr;
@@ -15,6 +23,16 @@
             display: block;
             height: 80px;
         }
+    }
+
+    .main-contacto {
+        display: flex;
+        flex-direction: column-reverse;
+
+        section {
+            margin: 10px;
+        }
+
     }
 
 }
