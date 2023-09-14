@@ -20,6 +20,24 @@
             height: 600px;
         }
     }
+
+    .card {
+        display: flex;
+        margin: 10px;
+        align-items: center;
+        background-color: transparent;
+        border: none;
+
+        .card-body {
+            width: 60%;
+        }
+
+        .card-img-top {
+            width: 60%;
+            height: 80%;
+            object-fit: cover;
+        }
+    }
 }
 
 
