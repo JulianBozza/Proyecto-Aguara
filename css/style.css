@@ -48,29 +48,27 @@ header {
   display: flex;
   flex-direction: column;
   margin: 30px; }
+  .main-index #carouselExample {
+    margin: 40px; }
+    .main-index #carouselExample img {
+      height: 600px; }
   .main-index section {
     display: flex;
     justify-content: space-evenly;
     margin: 30px;
     flex-wrap: wrap; }
     .main-index section .card {
-      margin: 5px; }
-  .main-index #carouselExample {
-    margin: 40px; }
-    .main-index #carouselExample img {
-      height: 600px; }
-  .main-index .card {
-    display: flex;
-    margin: 10px;
-    align-items: center;
-    background-color: transparent;
-    border: none; }
-    .main-index .card .card-body {
-      width: 60%; }
-    .main-index .card .card-img-top {
-      width: 60%;
-      height: 80%;
-      object-fit: cover; }
+      display: flex;
+      margin: 10px;
+      align-items: center;
+      background-color: transparent;
+      border: none; }
+      .main-index section .card .card-body {
+        width: 60%; }
+      .main-index section .card .card-img-top {
+        width: 60%;
+        height: 80%;
+        object-fit: cover; }
 
 .main-contacto {
   display: grid;

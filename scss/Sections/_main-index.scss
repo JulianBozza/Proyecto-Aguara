@@ -4,6 +4,14 @@
     flex-direction: column;
     margin: 30px;
 
+    #carouselExample {
+        margin: 40px;
+
+        img {
+            height: 600px;
+        }
+    }
+
     section {
         display: flex;
         justify-content: space-evenly;
@@ -11,35 +19,22 @@
         flex-wrap: wrap;
 
         .card {
-            margin: 5px;
-        }
-    }
-    #carouselExample {
-        margin: 40px;
-        img {
-            height: 600px;
-        }
-    }
+            display: flex;
+            margin: 10px;
+            align-items: center;
+            background-color: transparent;
+            border: none;
 
-    .card {
-        display: flex;
-        margin: 10px;
-        align-items: center;
-        background-color: transparent;
-        border: none;
+            .card-body {
+                width: 60%;
+            }
 
-        .card-body {
-            width: 60%;
+            .card-img-top {
+                width: 60%;
+                height: 80%;
+                object-fit: cover;
+            }
         }
 
-        .card-img-top {
-            width: 60%;
-            height: 80%;
-            object-fit: cover;
-        }
     }
 }
-
-
-
-

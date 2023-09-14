@@ -13,8 +13,9 @@
     <header>
         <form class="d-flex" role="search">
             <input class="d-flex rounded ms-2" type="search" placeholder="Búsqueda" aria-label="Search">
-            <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass lupa" style="color: #000000;"></i></button>
-          </form>
+            <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass lupa"
+                    style="color: #000000;"></i></button>
+        </form>
         <img class="logo" src="../Resources/img/zorro2 borde.png" alt="Logo Aguara">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid flex-column align-items-center flex-nowrap">
@@ -45,31 +46,42 @@
         </nav>
     </header>
     <main class="main-ventas">
+        <section class="filtro-responsive">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    FILTROS
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                            href="#">ITEMS INCLUIDOS</a>
+                        <ul class="d-flex flex-column">
+                            <label for="cbox"><input type="checkbox" value="first_checkbox">MATE</label>
+                            <label for="cbox"><input type="checkbox" value="first_checkbox">BOMBILLA</label>
+                            <label for="cbox"><input type="checkbox" value="first_checkbox">TERMO</label>
+                            <label for="cbox"><input type="checkbox" value="first_checkbox">YERBERA</label>
+                            <label for="cbox"><input type="checkbox" value="first_checkbox">BOLSO</label>
+                            <label for="cbox"><input type="checkbox" value="first_checkbox">BOX</label>
+                        </ul>
+                    </li>
+        </section>
         <section class="filtro">
             <div>
-                <h4>MATES</h4>
-                <label for="cbox"><input type="checkbox" value="first_checkbox">IMPERIAL</label>
-                <label for="cbox"><input type="checkbox" value="second_checkbox">CAMIONERO</label>
-                <label for="cbox"><input type="checkbox" value="third_checkbox">TORPEDO</label>
-            </div>
-            <div>
-                <h4>COLOR</h4>
-                <label for="cbox"><input type="checkbox" value="fourth_checkbox">NEGRO</label>
-                <label for="cbox"><input type="checkbox" value="fifth_checkbox">SUELA</label>
-                <label for="cbox"><input type="checkbox" value="sixth_checkbox">BORDÓ</label>
-            </div>
-            <div>
-                <h4>VIROLA</h4>
-                <label for="cbox"><input type="checkbox" value="seventh_checkbox">ACERO</label>
-                <label for="cbox"><input type="checkbox" value="eighth_checkbox">ALPACA</label>
+                <h4>ITEMS INCLUIDOS</h4>
+                <label for="cbox"><input type="checkbox" value="first_checkbox">MATE</label>
+                <label for="cbox"><input type="checkbox" value="fourth_checkbox">BOMBILLA</label>
+                <label for="cbox"><input type="checkbox" value="second_checkbox">TERMO</label>
+                <label for="cbox"><input type="checkbox" value="third_checkbox">YERBERA</label>
+                <label for="cbox"><input type="checkbox" value="sixth_checkbox">BOLSO</label>
+                <label for="cbox"><input type="checkbox" value="fifth_checkbox">BOX</label>
             </div>
         </section>
         <section>
             <div class="card" style="width: 18rem;">
-                <img src="../Resources/img/Combo.jpg" class="card-img-top" alt="Combo matero">
+                <img src="../Resources/img/Mate fondo blanco.jpg" class="card-img-top" alt="Combo matero">
                 <div class="card-body">
-                    <h5 class="card-title">Combo Matero</h5>
-                    <p class="card-text">Incluye termo, mate, bombilla, bolso y yerbera</p>
+                    <h5 class="card-title">Combo Básico</h5>
+                    <p class="card-text">Incluye mate + bombilla</p>
                     <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
@@ -90,10 +102,10 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="../Resources/img/Combo.jpg" class="card-img-top" alt="Combo matero">
+                <img src="../Resources/img/BOX.jpg" class="card-img-top" alt="Combo box">
                 <div class="card-body">
-                    <h5 class="card-title">Combo Matero</h5>
-                    <p class="card-text">Incluye termo, mate, bombilla, bolso y yerbera</p>
+                    <h5 class="card-title">Box Presentación</h5>
+                    <p class="card-text">Ideal para regalos empresariales</p>
                     <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
