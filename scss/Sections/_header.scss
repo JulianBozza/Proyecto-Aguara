@@ -4,13 +4,19 @@ header {
     z-index: 1000;
     background-color: burlywood;
 
-    .lupa {
-        font-size: 25px;      
+    input {
+        margin-top: 2px;
     }
 
+    .lupa {
+        font-size: 25px;
+    }
+
+
     .logo {
-        height: 200px;
+        height: 100px;
         margin: auto;
+        margin-bottom: 15px;
         display: block;
     }
 
@@ -21,17 +27,18 @@ header {
         .navbar-toggler {
             margin-right: auto;
         }
+
         .espaciado {
             gap: 140px;
+
             a {
                 font-family: "montserrat";
-    
+
                 &:hover {
                     font-style: italic;
                     font-weight: bold;
                 }
             }
         }
-        }
+    }
 }
-

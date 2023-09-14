@@ -24,11 +24,14 @@ header {
   top: 0;
   z-index: 1000;
   background-color: burlywood; }
+  header input {
+    margin-top: 2px; }
   header .lupa {
     font-size: 25px; }
   header .logo {
-    height: 200px;
+    height: 100px;
     margin: auto;
+    margin-bottom: 15px;
     display: block; }
   header .navbar {
     background-image: linear-gradient(to bottom right, #7a270b, #d3986c);
@@ -9432,6 +9435,11 @@ textarea.form-control-lg {
     display: none !important; } }
 
 @media (max-width: 991px) {
+  header input {
+    margin-top: 6px;
+    height: 28px; }
+  header .lupa {
+    font-size: 15px; }
   header .navbar .espaciado {
     gap: 10px; }
   .main-ventas {
